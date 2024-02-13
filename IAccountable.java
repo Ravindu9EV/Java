@@ -1,3 +1,3 @@
 interface IAccountable{
-	abstract void calculateCost();
+	void calculateCost();
 }
