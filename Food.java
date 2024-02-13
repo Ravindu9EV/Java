@@ -4,7 +4,7 @@ class Food implements IAccountable{
 		this.items=items;
 	}
 	public void calculateCost(){
-		double subTot=0;
+		double subTot;
 		double tot=0;
 		
 
