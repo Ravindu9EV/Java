@@ -1,5 +1,5 @@
 class Soya extends Item {
-	private double qtyInKilos;
+	private final double qtyInKilos;
 	Soya(double qtyInKilos){
 		this.qtyInKilos=qtyInKilos;
 	}
