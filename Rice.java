@@ -1,5 +1,5 @@
 class Rice extends Item {
-	private double qtyInKilos;
+	private final double qtyInKilos;
 	Rice(double qtyInKilos) {
 		this.qtyInKilos=qtyInKilos;
 	}

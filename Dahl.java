@@ -1,5 +1,5 @@
 class Dahl extends Item{
-	private double qtyInKilos;
+	private final double qtyInKilos;
 
 	Dahl(double qtyInKilos){
 		this.qtyInKilos=qtyInKilos;
